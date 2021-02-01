@@ -1,0 +1,8 @@
+{% extends "layout/basic.html" %}
+
+{% block content %}
+{% for i in bbs %}
+<h2>{{ i.rubric }}</h2>
+<p>{{ i.title }}</p>
+{% endfor %}
+{% endblock %}
